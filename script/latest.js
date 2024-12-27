@@ -26,7 +26,7 @@ function readDirectory(directory) {
                 // 去掉不需要的符号和字符
                 const cleanedParagraph = firstParagraph.replace(/[\*\n#\s]/g, '');
                 data.firstParagraph = cleanedParagraph;
-                data.link = '/' + year + '/' + data.title;
+                data.link = '/vite-blog/' + year + '/' + data.title;
                 all.push(data);
             }
         }
