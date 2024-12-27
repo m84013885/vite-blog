@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import year from '../../generate/year.json'
 
 export default defineConfig({
+  base: '/vite-blog/',
   title: "Ming's Blog",
   description: "A Ming Site",
   themeConfig: {
